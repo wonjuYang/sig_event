@@ -4,7 +4,16 @@
     main{
         background: $oc-indigo-2;
         min-height: calc(100vh - 12rem);
-        padding-right: 150px;
-        padding-left: 150px;
+        //padding-right: 6rem;
+       // padding-left: 6rem;
     }
 }
+
+.page-wrapper{
+    background: $oc-indigo-1;
+    padding-left:1rem;
+    padding-right: 1rem;
+    margin-right:2rem;
+    margin-left:2rem;
+}
+

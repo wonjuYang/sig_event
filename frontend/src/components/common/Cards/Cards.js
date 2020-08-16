@@ -6,7 +6,8 @@ import {
   CCardBody,
   CCardHeader,
   CCol,
-  CRow
+  CRow,
+  CContainer
 } from  '@coreui/react'
 
 
@@ -16,9 +17,11 @@ const cx = classNames.bind(styles);
 const Cards = () => {
   return (
     <>
-    <div className={cx('card_content')}>
+    <div className={cx('cards')}>
+        
+     <CContainer fluid>
       <CRow>
-        <CCol className={cx('ccol')} xs="12" md="4">
+        <CCol className={cx('ccol')} xs="12" sm= "6" md="4">
           <CCard>
             <CCardHeader>
               Card title
@@ -30,7 +33,7 @@ const Cards = () => {
             </CCardBody>
           </CCard>
         </CCol>
-        <CCol className={cx('ccol')} xs="12" md="4">
+        <CCol className={cx('ccol')} xs="12" sm= "6" md="4">
         <CCard>
             <CCardHeader>
               Card title
@@ -42,7 +45,7 @@ const Cards = () => {
             </CCardBody>
           </CCard>
         </CCol>
-        <CCol className={cx('ccol')} xs="12" md="4">
+        <CCol className={cx('ccol')} xs="12" sm= "6" md="4">
         <CCard>
             <CCardHeader>
               Card title
@@ -55,7 +58,10 @@ const Cards = () => {
           </CCard>
         </CCol>
       </CRow>
-      </div>
+
+      </CContainer>
+      
+    </div>
     </>
   )
 }
