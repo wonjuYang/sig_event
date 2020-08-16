@@ -1,0 +1,31 @@
+@import 'utils';
+
+.header{
+    background: $oc-indigo-4;
+    .haeder-content{
+        height: 5rem;
+        width: 1400px;
+        margin: 0 auto; //가운데 정렬
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+        display: flex;
+        align-items: center;
+
+        //반응형 레이아웃
+        @include media("<wide"){
+            width: 100%;
+        }
+        @include media("<medium"){
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        .brand{
+            //로고 입니다
+            color: white;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+    }
+}

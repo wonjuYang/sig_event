@@ -1,0 +1,24 @@
+@import 'utils';
+@import "~@coreui/coreui/scss/coreui";
+
+
+.footer{
+    background: $oc-indigo-4;
+    height: 7rem;
+
+    //내부 내용 가운데 정렬
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; //위에서 아래로
+
+    .brand{
+        //로고
+        color: white;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+}
+
+
+
