@@ -1,4 +1,11 @@
+@import 'utils';
+
+
 .title{
+    h1{
+        border:1px solid $oc-indigo-4;
+    }
+    
     padding-top: 50px;
     margin-bottom:50px;
     color: white;

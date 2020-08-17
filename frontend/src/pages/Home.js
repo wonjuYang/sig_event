@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <PageTemplate>
             <Title>
-                여기에 입력한 값이 타이틀이 된다
+                당신과 함께할 내일의 책을 만듭니다.
             </Title>
             <Cards/>
             
