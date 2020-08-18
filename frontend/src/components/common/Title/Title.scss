@@ -3,12 +3,13 @@
 
 .title{
     h1{
-        border:1px solid $oc-indigo-4;
+        border:1px solid $oc-indigo-9;
+        letter-spacing: -0.1rem;
     }
     
     padding-top: 50px;
     margin-bottom:50px;
-    color: white;
+    color: $oc-indigo-5;
     //내부 내용 가운데 정렬
     display: flex;
     align-items: center;
