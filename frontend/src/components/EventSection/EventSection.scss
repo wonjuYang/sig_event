@@ -1,0 +1,23 @@
+@import 'utils';
+
+.EventSection{
+    background-color: $oc-indigo-1;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; //위에서 아래로
+    text-align: center;
+
+    
+    @include media("<medium"){
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-left:1rem;
+        margin-right:1rem;
+    }
+
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+}
