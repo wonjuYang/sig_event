@@ -8,6 +8,7 @@ import Subtitle2 from '../components/common/Subtitle2';
 import EventSection from '../components/EventSection';
 import Subtitle1 from '../components/common/Subtitle1';
 import EventSectionText from '../components/common/EventSectionText';
+import Button_custom from '../components/common/Button_custom';
 
 const Home = () => {
     return (
@@ -36,7 +37,8 @@ const Home = () => {
                 30년 동안 시공사를 응원해주신 독자님들께 보답하는 마음으로<br></br>
                 매주 월요일 오후 3시 선착순 300분께.<br></br>
                 시공사가 자신 있게 추천하는 4권의 ebook 30일 대여권을 드립니다.<br></br>
-                </EventSectionText> 
+                </EventSectionText>
+                <Button_custom>이벤트 바로가기</Button_custom>
 
 
             </EventSection>
