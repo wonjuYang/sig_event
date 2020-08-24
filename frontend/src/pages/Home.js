@@ -9,6 +9,7 @@ import EventSection from '../components/EventSection';
 import Subtitle1 from '../components/common/Subtitle1';
 import EventSectionText from '../components/common/EventSectionText';
 import Button_custom from '../components/common/Button_custom';
+import EventSectionWrapper from '../components/EventSectionWrapper';
 
 const Home = () => {
     return (
@@ -23,25 +24,26 @@ const Home = () => {
                 30주년을 기념하여 준비한 이벤트에 많은 참여 부탁드립니다.<br></br>
             </PlainText> 
             <Cards/>
+            <EventSectionWrapper>
+                <EventSection>
 
-            <EventSection>
-
-                <Subtitle2>
-                    <span className="underline--magical">Event 1 <br></br></span>
-                    <span className="underline--magical">늘 곁에 머무는 마음</span>
-                </Subtitle2>
-                <Subtitle1>
-                    월요일에 만나는 책
-                </Subtitle1>
-                <EventSectionText>
-                30년 동안 시공사를 응원해주신 독자님들께 보답하는 마음으로<br></br>
-                매주 월요일 오후 3시 선착순 300분께.<br></br>
-                시공사가 자신 있게 추천하는 4권의 ebook 30일 대여권을 드립니다.<br></br>
-                </EventSectionText>
-                <Button_custom>이벤트 바로가기</Button_custom>
+                    <Subtitle2>
+                        <span className="underline--magical">Event 1 <br></br></span>
+                        <span className="underline--magical">늘 곁에 머무는 마음</span>
+                    </Subtitle2>
+                    <Subtitle1>
+                        월요일에 만나는 책
+                    </Subtitle1>
+                    <EventSectionText>
+                    30년 동안 시공사를 응원해주신 독자님들께 보답하는 마음으로<br></br>
+                    매주 월요일 오후 3시 선착순 300분께.<br></br>
+                    시공사가 자신 있게 추천하는 4권의 ebook 30일 대여권을 드립니다.<br></br>
+                    </EventSectionText>
+                    <Button_custom>이벤트 바로가기</Button_custom>
 
 
-            </EventSection>
+                </EventSection>
+            </EventSectionWrapper>
             <VerticalTabs/>
             
                       

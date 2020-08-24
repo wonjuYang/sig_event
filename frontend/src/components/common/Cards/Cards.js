@@ -28,7 +28,7 @@ const Cards = () => {
             </CCardHeader>
             <CCardBody>
               <h4 className={cx('cards-contnets-title')}>늘 곁에 머무는 마음,</h4>
-              <h2>월요엘이 만나는 책</h2>
+              <h2>월요일에 만나는 책</h2>
               <div className={cx('cards-contents')}>
                 시공사가 추천하는 4종 책을<br></br>
                 매주 월요일 300분께<br></br>

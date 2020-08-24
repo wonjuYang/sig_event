@@ -5,5 +5,9 @@
     margin-bottom: 1rem;
     h1{
         color: $oc-indigo-9;
+        @include media("<medium"){
+            font-size: 1.6rem;
+            
+        }
     }
 }
