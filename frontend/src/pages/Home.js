@@ -1,6 +1,6 @@
 import React from 'react';
 import PageTemplate from '../components/common/PageTemplate';
-import Cards from '../components/common/Cards'
+import Cards from '../components/Cards'
 import Title from '../components/common/Title'
 import VerticalTabs from '../components/VerticalTabs';
 import PlainText from '../components/common/PlainText';
@@ -10,6 +10,7 @@ import Subtitle1 from '../components/common/Subtitle1';
 import EventSectionText from '../components/common/EventSectionText';
 import Button_custom from '../components/common/Button_custom';
 import EventSectionWrapper from '../components/EventSectionWrapper';
+import Grid3 from '../components/Grid3'
 
 const Home = () => {
     return (
@@ -39,6 +40,7 @@ const Home = () => {
                     매주 월요일 오후 3시 선착순 300분께.<br></br>
                     시공사가 자신 있게 추천하는 4권의 ebook 30일 대여권을 드립니다.<br></br>
                     </EventSectionText>
+                    <Grid3></Grid3>
                     <Button_custom>이벤트 바로가기</Button_custom>
 
 
