@@ -1,16 +1,16 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
-import Icon from '@material-ui/core/Icon';
 import PlayCircleFilledRoundedIcon from '@material-ui/icons/PlayCircleFilledRounded';
 
 const useStyles = makeStyles((theme) => ({
   button: {
     margin: theme.spacing(3),
+    marginTop : theme.spacing(5),
   },
 }));
 
-const Button_custom = ({children}) => {
+const ButtonCustom = ({children}) => {
 
   const classes = useStyles();
 
@@ -22,10 +22,10 @@ const Button_custom = ({children}) => {
         className={classes.button}
         endIcon={<PlayCircleFilledRoundedIcon style={{ fontSize: 40 }}/>}
       >
-        이벤트 바로 가기
+        {children}
       </Button>
     </div>
   );
 }
 
-export default Button_custom;
+export default ButtonCustom;

@@ -3,3 +3,18 @@
 .image{
     width: 100%;
 }
+
+.grid_contain{
+    
+    margin-left: 150px;
+    margin-right: 150px;
+
+        
+    @include media("<medium"){
+        margin: 0;
+        padding: 0;
+    }
+
+    
+
+}

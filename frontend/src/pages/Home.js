@@ -5,12 +5,14 @@ import Title from '../components/common/Title'
 import VerticalTabs from '../components/VerticalTabs';
 import PlainText from '../components/common/PlainText';
 import Subtitle2 from '../components/common/Subtitle2';
-import EventSection from '../components/EventSection';
+import EventSection from '../components/common/EventSection';
 import Subtitle1 from '../components/common/Subtitle1';
 import EventSectionText from '../components/common/EventSectionText';
-import Button_custom from '../components/common/Button_custom';
-import EventSectionWrapper from '../components/EventSectionWrapper';
+import EventSectionTextSmall from '../components/common/EventSectionTextSmall';
+import ButtonCustom from '../components/common/ButtonCustom';
+import EventSectionWrapper from '../components/common/EventSectionWrapper';
 import Grid3 from '../components/Grid3'
+import Chip from '../components/common/Chip'
 
 const Home = () => {
     return (
@@ -27,7 +29,6 @@ const Home = () => {
             <Cards/>
             <EventSectionWrapper>
                 <EventSection>
-
                     <Subtitle2>
                         <span className="underline--magical">Event 1 <br></br></span>
                         <span className="underline--magical">늘 곁에 머무는 마음</span>
@@ -41,9 +42,34 @@ const Home = () => {
                     시공사가 자신 있게 추천하는 4권의 ebook 30일 대여권을 드립니다.<br></br>
                     </EventSectionText>
                     <Grid3></Grid3>
-                    <Button_custom>이벤트 바로가기</Button_custom>
+                    <EventSectionTextSmall>
+                        ※시공북클럽 홈페이지 가입이 필요합니다.<br></br>
+                        해당 eBook 대여권은 교보문고를 통해 이용하실 수 있습니다.<br></br>
+                    </EventSectionTextSmall> 
+                    <ButtonCustom>참여하기</ButtonCustom>
+                </EventSection>
+                <EventSection>
+                    <Subtitle2>
+                        <span className="underline--magical">Event 2 <br></br></span>
+                        <span className="underline--magical">책으로 이어가는 마음</span>
+                    </Subtitle2>
+                    <Subtitle1>
+                        함께 만드는 이음서재
+                    </Subtitle1>
+                    <EventSectionText>
+                    여러분이 추천하고 싶은 시공사의 책은 무엇인가요?<br></br>
+                    감명 깊게 읽었떤 책, 꼭 한번은 읽어야 할 책, 재미있게 읽었던 책 등<br></br>
+                    여러분이 읽었던 시공사 책 중 가장 기억에 남은 책을 인스타그램에 올려주세요.<br></br>
+                    추첨을 통해 총 30명에게 선물을 드립니다.<br></br>
+                    </EventSectionText>
 
+                    <Chip> 이벤트 기간 </Chip>
+                    <Chip> 참여 방법 </Chip>
+                    <Chip> 참여 필수 해시태그 </Chip>
+                    <Chip> 당첨자 발표 </Chip>
+                    <Chip> 당첨 상품 </Chip>
 
+                    <ButtonCustom>참여하기</ButtonCustom>
                 </EventSection>
             </EventSectionWrapper>
             <VerticalTabs/>

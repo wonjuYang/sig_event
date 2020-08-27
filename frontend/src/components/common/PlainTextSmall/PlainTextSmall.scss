@@ -1,14 +1,17 @@
 @import 'utils';
 
 
-.EventSectionText{
+.PlainTextSmall{
+
+    background-color: $oc-indigo-5;
+
 
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column; //위에서 아래로
     text-align: center;
-
+    color: $oc-indigo-0;
 
     
     @include media("<medium"){
@@ -18,21 +21,22 @@
         padding-bottom:1rem;
 
     }
-
+    padding-top:3rem;
     padding-bottom:3rem;
 
-    margin-bottom: 1rem;
-
-    font-size:1.3rem;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    font-size:0.7rem;
 
 
 }
 
 
-.EventSectionText_p{
+.PlainTextSmall_p{
     margin: 0;
     padding: 0;
     letter-spacing: -0.1rem;
-    line-height: 1.8rem;
-    color: $oc-indigo-5;
+    line-height: 0.7rem;
 }

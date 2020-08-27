@@ -8,15 +8,3 @@
         color: $oc-blue-7;
     }
 }
-
-.underline--magical {
-    background-image: linear-gradient(120deg, #84defa 0%, #8fa2f4 100%);
-    background-repeat: no-repeat;
-    background-size: 100% 0.2em;
-    background-position: 0 88%;
-    transition: background-size 0.25s ease-in;
-    //&:hover {
-    //  background-size: 100% 88%;
-    //}
-  }
-  

@@ -15,8 +15,14 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     padding: theme.spacing(1),
     textAlign: 'center',
-    color: theme.palette.text.secondary,
+    color: theme.palette.text.primary,
   },
+  paper_date: {
+    background: '#bac8ff',
+    padding: theme.spacing(1),
+    textAlign: 'center',
+    color: theme.palette.text.primary,
+  }
 }));
 
 
@@ -53,16 +59,16 @@ const Grid3 = () => {
     return (
       <React.Fragment>
         <Grid item xs={3}>
-          <Paper className={classes.paper}>8/17</Paper>
+          <Paper  className={classes.paper_date}>8/17</Paper>
         </Grid>
         <Grid item xs={3}>
-          <Paper className={classes.paper}>8/24</Paper>
+          <Paper className={classes.paper_date}>8/24</Paper>
         </Grid>
         <Grid item xs={3}>
-          <Paper className={classes.paper}>8/31</Paper>
+          <Paper className={classes.paper_date}>8/31</Paper>
         </Grid>
         <Grid item xs={3}>
-          <Paper className={classes.paper}>9/7</Paper>
+          <Paper className={classes.paper_date}>9/7</Paper>
         </Grid>
       </React.Fragment>
     );
@@ -88,7 +94,7 @@ const Grid3 = () => {
   }
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root, cx('grid_contain')}>
       <Grid container spacing={1}>
         <Grid container item xs={12} >
           <BookImage />

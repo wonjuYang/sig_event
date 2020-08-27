@@ -1,7 +1,7 @@
 @import 'utils';
 
 
-.EventSectionText{
+.EventSectionTextSmall{
 
     display: flex;
     align-items: center;
@@ -16,23 +16,16 @@
         margin-right: 1rem;
         padding-top:1rem;
         padding-bottom:1rem;
-
     }
 
-    padding-bottom:3rem;
-
-    margin-bottom: 1rem;
-
-    font-size:1.3rem;
+    margin-top: 3rem;
+    font-size:1rem;
 
 
 }
 
-
-.EventSectionText_p{
+.EventSectionTextSmall_p{
     margin: 0;
     padding: 0;
-    letter-spacing: -0.1rem;
-    line-height: 1.8rem;
     color: $oc-indigo-5;
 }
