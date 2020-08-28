@@ -14,6 +14,7 @@ import EventSectionWrapper from '../components/common/EventSectionWrapper';
 import Grid3 from '../components/Grid3'
 import Chip from '../components/common/Chip'
 
+
 const Home = () => {
     return (
         <PageTemplate>
@@ -46,6 +47,7 @@ const Home = () => {
                         ※시공북클럽 홈페이지 가입이 필요합니다.<br></br>
                         해당 eBook 대여권은 교보문고를 통해 이용하실 수 있습니다.<br></br>
                     </EventSectionTextSmall> 
+                    <img src="https://pbs.twimg.com/profile_images/1229648168276545537/Tn8knLq9_400x400.jpg" alt="sigongsaCircle"></img>
                     <ButtonCustom>참여하기</ButtonCustom>
                 </EventSection>
                 <EventSection>
@@ -64,11 +66,14 @@ const Home = () => {
                     </EventSectionText>
 
                     <Chip> 이벤트 기간 </Chip>
+                    2020.08.15 ~ 2020.09.15
                     <Chip> 참여 방법 </Chip>
+                    인스타그램
                     <Chip> 참여 필수 해시태그 </Chip>
+                    시공사 
                     <Chip> 당첨자 발표 </Chip>
                     <Chip> 당첨 상품 </Chip>
-
+                    인스타그램바로가기
                     <ButtonCustom>참여하기</ButtonCustom>
                 </EventSection>
             </EventSectionWrapper>
