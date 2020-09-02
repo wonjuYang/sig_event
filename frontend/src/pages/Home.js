@@ -13,6 +13,7 @@ import ButtonCustom from '../components/common/ButtonCustom';
 import EventSectionWrapper from '../components/common/EventSectionWrapper';
 import Grid3 from '../components/Grid3'
 import Chip from '../components/common/Chip'
+import ImageWrapper from '../components/common/ImageWrapper'
 import Image from '../components/Image'
 
 const Home = () => {
@@ -47,7 +48,9 @@ const Home = () => {
                         ※시공북클럽 홈페이지 가입이 필요합니다.<br></br>
                         해당 eBook 대여권은 교보문고를 통해 이용하실 수 있습니다.<br></br>
                     </EventSectionTextSmall>
-                    <Image></Image>
+                    <ImageWrapper>
+                        <Image></Image>
+                    </ImageWrapper>
                     <ButtonCustom>참여하기</ButtonCustom>
                 </EventSection>
                 <EventSection>

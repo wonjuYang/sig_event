@@ -1,0 +1,33 @@
+@import 'utils';
+
+
+.collabo{
+    height: 2rem !important;
+}
+
+.ImageWrapper{
+
+    img{
+        height: 5rem;
+    }
+
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: $oc-indigo-0;
+
+    
+    @include media("<medium"){
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-top:1rem;
+        padding-bottom:1rem;
+
+    }
+    padding-top:3rem;
+
+}
+
