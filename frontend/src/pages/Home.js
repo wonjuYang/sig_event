@@ -15,6 +15,7 @@ import Grid3 from '../components/Grid3'
 import Chip from '../components/common/Chip'
 import ImageWrapper from '../components/common/ImageWrapper'
 import Image from '../components/Image'
+import Image2 from '../components/Image2'
 
 const Home = () => {
     return (
@@ -69,15 +70,42 @@ const Home = () => {
                     </EventSectionText>
 
                     <Chip> 이벤트 기간 </Chip>
-                    2020.08.15 ~ 2020.09.15
+                    2020.08.10(금) ~ 09.10(목)
                     <Chip> 참여 방법 </Chip>
-                    인스타그램
+                    시공사의 책을 들고 개인 인스타그램에 올려주면 끝!<br></br>
+                    책과 함께한 나만의 특별한 추억을 담아 친구를 소환하면<br></br>
+                    당첨 확률이 올라갑니다.
                     <Chip> 참여 필수 해시태그 </Chip>
-                    시공사 
+                    #시공사30주년이음서재 #책제목 #시공사
                     <Chip> 당첨자 발표 </Chip>
+                    9월 14일(월) 인스타그램 DM 개별발표
                     <Chip> 당첨 상품 </Chip>
-                    인스타그램바로가기
-                    <ButtonCustom>참여하기</ButtonCustom>
+                    시공사/시공주니어(택1) 베스트셀러 5종 세트<br/>
+                    30주년 특별 각인문진<br/>
+                    아이스 아메리카노 커피 기프티콘<br/>
+                    <ButtonCustom>인스타그램 바로 가기</ButtonCustom>
+                </EventSection>
+                <EventSection>
+                    <Subtitle2>
+                        <span className="underline--magical">Event 3 <br></br></span>
+                        <span className="underline--magical">책을 나누고 싶은 마음</span>
+                    </Subtitle2>
+                    <Subtitle1>
+                        시공사 30주년 브랜드전
+                    </Subtitle1>
+                    <EventSectionText>
+                    지금 가장 핫한 신간에서부터 베스트셀러까지<br></br>
+                    창립 30주년 맞이 브랜드전에 독자님들을 초대합니다!<br></br>
+                    기간 내 온라인 서점에서 행사 대상 도서를 구매하시면 브랜드전 특별 굿즈를 드립니다.<br></br>
+                    
+                    </EventSectionText>
+                    <ImageWrapper>
+                        <Image2></Image2>
+                    </ImageWrapper>
+                    <Chip> 이벤트 기간 </Chip>
+                    2020.08.18(화) ~ 09.30(수)
+                    <Chip> 이벤트 바로가기 </Chip>
+                    
                 </EventSection>
             </EventSectionWrapper>
             <VerticalTabs/>
