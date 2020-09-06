@@ -103,11 +103,11 @@ export default function VerticalTabs() {
             <div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006481/detail_SB006481.jpg" alt=""/>
-                <p>대항해시대의 탄생</p>
+                <span>대항해시대의 탄생</span>
               </div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006431/detail_SB006431.jpg" alt=""/>
-                <p>예술가는왜 책을 사랑하는가</p>
+                <span>예술가는왜 책을 사랑하는가</span>
               </div>
             </div>
         </TabPanel>
@@ -115,11 +115,11 @@ export default function VerticalTabs() {
         <div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006481/detail_SB006481.jpg" alt=""/>
-                <p>대항해시대의 탄생</p>
+                <span>대항해시대의 탄생</span>
               </div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006431/detail_SB006431.jpg" alt=""/>
-                <p>예술가는왜 책을 사랑하는가</p>
+                <span>예술가는왜 책을 사랑하는가</span>
               </div>
             </div>
         </TabPanel>
@@ -127,11 +127,11 @@ export default function VerticalTabs() {
         <div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006481/detail_SB006481.jpg" alt=""/>
-                <p>대항해시대의 탄생</p>
+                <span>대항해시대의 탄생</span>
               </div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006431/detail_SB006431.jpg" alt=""/>
-                <p>예술가는왜 책을 사랑하는가</p>
+                <span>예술가는왜 책을 사랑하는가</span>
               </div>
             </div>
         </TabPanel>
@@ -139,11 +139,11 @@ export default function VerticalTabs() {
           <div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006481/detail_SB006481.jpg" alt=""/>
-                <p>대항해시대의 탄생</p>
+                <span>대항해시대의 탄생</span>
               </div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006431/detail_SB006431.jpg" alt=""/>
-                <p>예술가는왜 책을 사랑하는가</p>
+                <span>예술가는왜 책을 사랑하는가</span>
               </div>
             </div>
         </TabPanel>
@@ -151,11 +151,11 @@ export default function VerticalTabs() {
         <div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006481/detail_SB006481.jpg" alt=""/>
-                <p>대항해시대의 탄생</p>
+                <span>대항해시대의 탄생</span>
               </div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006431/detail_SB006431.jpg" alt=""/>
-                <p>예술가는왜 책을 사랑하는가</p>
+                <span>예술가는왜 책을 사랑하는가</span>
               </div>
             </div>
         </TabPanel>
@@ -163,11 +163,11 @@ export default function VerticalTabs() {
         <div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006481/detail_SB006481.jpg" alt=""/>
-                <p>대항해시대의 탄생</p>
+                <span>대항해시대의 탄생</span>
               </div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006431/detail_SB006431.jpg" alt=""/>
-                <p>예술가는왜 책을 사랑하는가</p>
+                <span>예술가는왜 책을 사랑하는가</span>
               </div>
             </div>
         </TabPanel>
@@ -175,11 +175,11 @@ export default function VerticalTabs() {
         <div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006481/detail_SB006481.jpg" alt=""/>
-                <p>대항해시대의 탄생</p>
+                <span>대항해시대의 탄생</span>
               </div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006431/detail_SB006431.jpg" alt=""/>
-                <p>예술가는왜 책을 사랑하는가</p>
+                <span>예술가는왜 책을 사랑하는가</span>
               </div>
             </div>
         </TabPanel>
@@ -187,11 +187,11 @@ export default function VerticalTabs() {
         <div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006481/detail_SB006481.jpg" alt=""/>
-                <p>대항해시대의 탄생</p>
+                <span>대항해시대의 탄생</span>
               </div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006431/detail_SB006431.jpg" alt=""/>
-                <p>예술가는왜 책을 사랑하는가</p>
+                <span>예술가는왜 책을 사랑하는가</span>
               </div>
             </div>
         </TabPanel>
@@ -199,11 +199,11 @@ export default function VerticalTabs() {
         <div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006481/detail_SB006481.jpg" alt=""/>
-                <p>대항해시대의 탄생</p>
+                <span>대항해시대의 탄생</span>
               </div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006431/detail_SB006431.jpg" alt=""/>
-                <p>예술가는왜 책을 사랑하는가</p>
+                <span>예술가는왜 책을 사랑하는가</span>
               </div>
             </div>
         </TabPanel>
@@ -211,11 +211,11 @@ export default function VerticalTabs() {
         <div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006481/detail_SB006481.jpg" alt=""/>
-                <p>대항해시대의 탄생</p>
+                <span>대항해시대의 탄생</span>
               </div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006431/detail_SB006431.jpg" alt=""/>
-                <p>예술가는왜 책을 사랑하는가</p>
+                <span>예술가는왜 책을 사랑하는가</span>
               </div>
             </div>
         </TabPanel>
@@ -223,11 +223,11 @@ export default function VerticalTabs() {
         <div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006481/detail_SB006481.jpg" alt=""/>
-                <p>대항해시대의 탄생</p>
+                <span>대항해시대의 탄생</span>
               </div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006431/detail_SB006431.jpg" alt=""/>
-                <p>예술가는왜 책을 사랑하는가</p>
+                <span>예술가는왜 책을 사랑하는가</span>
               </div>
             </div>
         </TabPanel>
@@ -235,11 +235,11 @@ export default function VerticalTabs() {
         <div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006481/detail_SB006481.jpg" alt=""/>
-                <p>대항해시대의 탄생</p>
+                <span>대항해시대의 탄생</span>
               </div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006431/detail_SB006431.jpg" alt=""/>
-                <p>예술가는왜 책을 사랑하는가</p>
+                <span>예술가는왜 책을 사랑하는가</span>
               </div>
             </div>
         </TabPanel>
@@ -247,11 +247,11 @@ export default function VerticalTabs() {
         <div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006481/detail_SB006481.jpg" alt=""/>
-                <p>대항해시대의 탄생</p>
+                <span>대항해시대의 탄생</span>
               </div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006431/detail_SB006431.jpg" alt=""/>
-                <p>예술가는왜 책을 사랑하는가</p>
+                <span>예술가는왜 책을 사랑하는가</span>
               </div>
             </div>
         </TabPanel>
@@ -259,11 +259,11 @@ export default function VerticalTabs() {
         <div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006481/detail_SB006481.jpg" alt=""/>
-                <p>대항해시대의 탄생</p>
+                <span>대항해시대의 탄생</span>
               </div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006431/detail_SB006431.jpg" alt=""/>
-                <p>예술가는왜 책을 사랑하는가</p>
+                <span>예술가는왜 책을 사랑하는가</span>
               </div>
             </div>
         </TabPanel>
@@ -271,11 +271,11 @@ export default function VerticalTabs() {
         <div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006481/detail_SB006481.jpg" alt=""/>
-                <p>대항해시대의 탄생</p>
+                <span>대항해시대의 탄생</span>
               </div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006431/detail_SB006431.jpg" alt=""/>
-                <p>예술가는왜 책을 사랑하는가</p>
+                <span>예술가는왜 책을 사랑하는가</span>
               </div>
             </div>
         </TabPanel>
@@ -283,23 +283,23 @@ export default function VerticalTabs() {
         <div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006481/detail_SB006481.jpg" alt=""/>
-                <p>대항해시대의 탄생</p>
+                <span>대항해시대의 탄생</span>
               </div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006431/detail_SB006431.jpg" alt=""/>
-                <p>예술가는왜 책을 사랑하는가</p>
+                <span>예술가는왜 책을 사랑하는가</span>
               </div>
             </div>
         </TabPanel>
         <TabPanel value={value} index={16}>
-          <div>
+            <div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006481/detail_SB006481.jpg" alt=""/>
-                <p>대항해시대의 탄생</p>
+                <span>대항해시대의 탄생</span>
               </div>
               <div>
                 <img src="https://www.sigongsa.com/filedata/book/SB006431/detail_SB006431.jpg" alt=""/>
-                <p>예술가는왜 책을 사랑하는가</p>
+                <span>예술가는왜 책을 사랑하는가</span>
               </div>
             </div>
         </TabPanel>
