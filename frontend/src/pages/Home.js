@@ -107,8 +107,19 @@ const Home = () => {
                     <Chip> 이벤트 바로가기 </Chip>
                     
                 </EventSection>
+                <EventSection>
+                    <Subtitle2>
+                        <span className="underline--magical">시공사가 추천하는 이럴 때 이 책!<br></br></span>
+                    </Subtitle2>
+                    <EventSectionText>
+                    책은 읽고 싶은데, 어떤 책을 읽어야 할지 망설이는 분들께<br></br>
+                    시공사가 자신있게 추천하는 책 큐레이션 리스트!<br></br>
+                    
+                    </EventSectionText>
+                    <VerticalTabs/>
+                </EventSection>
             </EventSectionWrapper>
-            <VerticalTabs/>
+            
             
                       
         </PageTemplate>

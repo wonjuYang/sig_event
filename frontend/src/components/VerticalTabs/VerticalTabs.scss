@@ -6,11 +6,56 @@
         padding-right: 1rem;
     }
 
-    padding-left: 8rem;
-    padding-right: 8rem;
-    padding-top:5rem;
-    padding-bottom:5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top:3rem;
+    padding-bottom:3rem;
 
 }
+
+.MuiBox-root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.MuiTypography-root>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+
+}
+.MuiBox-root-16{
+
+    padding-bottom: 0 !important;
+}
+.MuiTypography-root div img{
+    display: block;
+}
+
+#vertical-tabpanel-1, #vertical-tabpanel-2, #vertical-tabpanel-3, #vertical-tabpanel-4, #vertical-tabpanel-5, 
+#vertical-tabpanel-6, #vertical-tabpanel-7, #vertical-tabpanel-8, #vertical-tabpanel-9, #vertical-tabpanel-10, 
+#vertical-tabpanel-11, #vertical-tabpanel-12, #vertical-tabpanel-13, #vertical-tabpanel-14, #vertical-tabpanel-15, 
+#vertical-tabpanel-16 {
+    display:flex;
+}
+
+.MuiTypography-root>div>div:first-child img{
+    margin-right:2rem;
+    margin-left: 1rem;
+}
+
+.MuiTypography-root>div>div p{
+    margin-top:1rem;
+    font-size: 0.9rem;
+    height:1.8rem;
+    padding:0;
+
+}
+
+
+
 
 
