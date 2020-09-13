@@ -10,6 +10,7 @@
     flex-direction: column; //위에서 아래로
     text-align: center;
 
+
     
     @include media("<medium"){
         padding-left: 1rem;
@@ -19,6 +20,7 @@
     }
 
     margin:4rem;
+    padding-bottom: 1.5rem;
     //margin-right: 8rem;
 
 }

@@ -16,6 +16,7 @@ import Chip from '../components/common/Chip'
 import ImageWrapper from '../components/common/ImageWrapper'
 import Image from '../components/Image'
 import Image2 from '../components/Image2'
+import Image3 from '../components/Image3'
 
 const Home = () => {
     return (
@@ -105,7 +106,9 @@ const Home = () => {
                     <Chip> 이벤트 기간 </Chip>
                     2020.08.18(화) ~ 09.30(수)
                     <Chip> 이벤트 바로가기 </Chip>
-                    
+                    <ImageWrapper>
+                        <Image3></Image3>
+                    </ImageWrapper>
                 </EventSection>
                 <EventSection>
                     <Subtitle2>
