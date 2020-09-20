@@ -30,6 +30,11 @@ const Home = () => {
                 앞으로도 독자님에게 재미와 지식을 전할 책을 선보이겠습니다. <br></br>
                 30주년을 기념하여 준비한 이벤트에 많은 참여 부탁드립니다.<br></br>
             </PlainText> 
+            <EventSection>
+                <ImageWrapper>
+                    <iframe align="middle" width="75%" height="500" src="https://www.youtube.com/embed/ANGYNxb2pyw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </ImageWrapper>               
+            </EventSection>
             <Cards/>
             <EventSectionWrapper>
                 <EventSection>
